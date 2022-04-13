@@ -10,7 +10,7 @@ export class AppComponent {
 
   public todos: Todo[] = []; // []
   //public todos: any[]; // undefined
-  public title: string = 'Minhas tarefas';
+  public title: string = 'Minhas Tarefas';
 
   constructor() {
       this.todos.push(new Todo(1, 'Passear com o cachorro', false));  
